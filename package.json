@@ -1,0 +1,19 @@
+{
+    "name": "web-develpment-final-project",
+    "version": "0.0.1",
+    "description": "Web_Development_CW2-04-24 Submission",
+    "scripts": {
+      "start": "parcel ./src/*.html ./src/pages/*.html",
+      "build": "parcel build ./src/*.html ./src/pages/*.html"
+    },
+    "devDependencies": {
+      "parcel": "latest"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/Guidogl/pill-point.git"
+    },
+    "author": "Gvidas Glebas",
+    "license": "UNLICENSED",
+    "homepage": "https://github.com/Guidogl/pill-point/tree/main#readme"
+  }
