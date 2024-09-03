@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adventure Page - My Portfolio in 2034</title>
     <link rel="stylesheet" href="../styles.css" />
+    <!-- Importing js library for 3D models -->
     <script src="https://cdn.babylonjs.com/viewer/babylon.viewer.js"></script>
   </head>
   <body class="page">
     <div class="page-container">
+      <!-- START AI generated text -->
       <h2>Steve's Pursuit of Entrepreneurial Excellence</h2>
       <p class="page-content">
         I've always been fascinated by the drive and vision of entrepreneurs.
@@ -21,9 +23,28 @@
         ideas, a narrative I crafted to inspire and motivate aspiring
         entrepreneurs everywhere.
       </p>
-      <babylon model="https://models.babylonjs.com/boombox.glb"></babylon>
+      <!-- END AI generated text -->
+      <!-- START loading 3D model -->
+      <babylon extends="minimal">
+        <model
+          url="https://raw.githubusercontent.com/Guidogl/pixelated-web/main/src/ipod.glb"
+        >
+        </model>
+        <camera>
+          <behaviors>
+            <auto-rotate type="0"></auto-rotate>
+          </behaviors>
+        </camera>
+        <scene>
+          <clear-color r="0" g="0" b="0"></clear-color>
+        </scene>
+      </babylon>
+      <!-- END loading 3D model -->
+      <!-- Custom button to go back to homepage -->
+      <button class="page-button">back to the homepage</button>
     </div>
   </body>
+  <!-- Adding footer with navigation -->
   <footer class="page-footer">
     <ul class="footer-menu">
       <li><a href="../index.html">Home</a></li>

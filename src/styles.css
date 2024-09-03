@@ -19,6 +19,11 @@ header {
   padding-top: 1em;
 }
 
+babylon {
+  width: 30%;
+  margin-top: 1em;
+}
+
 .story {
   font-size: 7em;
   text-align: left;
@@ -210,7 +215,7 @@ header {
 }
 
 .page-button {
-  background-color: #0E0E10;
+  background-color: #0e0e10;
   color: #fffce1;
   border: none;
   margin-top: 4em;
