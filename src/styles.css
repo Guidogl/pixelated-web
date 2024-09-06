@@ -2002,32 +2002,6 @@ header {
 /* END of pixel art from: https://codepen.io/kkdawg/pen/OXPrKe *
 
 /* START of responsive design */
-/* Mobile phones (smartphones, below 390px) */
-@media only screen and (max-width: 391) {
-  .story {
-    font-size: 2em;
-  }
-
-  .arrow {
-    /* Change the position of the arrow */
-    left: 42%;
-    top: 35%;
-  }
-
-  @keyframes arrow-movement {
-    0% {
-      opacity: 0;
-      top: 25%;
-    }
-    70% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
-}
-
 /* Extra large devices (widescreen desktops, 1920px and up) */
 @media only screen and (min-width: 1920px) {
   .story {
@@ -2167,5 +2141,25 @@ header {
       transform: scale(0.5) translateY(-15px);
     }
   }
+
+.page-container {
+  font-size: 2em;
+}
+
+/* add padding to the image */
+.page-image {
+  width: 15%;
+  padding-top: 2em;
+  margin-bottom: 4em;
+}
+
+.page-button {
+  font-size: 1em;
+}
+
+.page-footer {
+  font-size: 1.5em;
+}
+
 }
 /* END of responsive design */
