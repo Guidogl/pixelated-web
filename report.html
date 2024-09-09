@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio Report</title>
+    <link rel="stylesheet" href="report.css" />
+  </head>
+  <body>
+    <h2>Your Name</h2>
+    <p>Gvidas Glebas</p>
+
+    <h2>Introduction</h2>
+    <p>
+      Every time I take a look at some portfolio websites, I see a unique
+      representation of the person behind it. I wanted to create a portfolio
+      that would be simple, yet innovative. I chose to implement a simple
+      structure with a few sections that would allow me to showcase my passion
+      for creative industries. The homepage doesn't have traditional navigation
+      but it has animations that are triggered by scrolling. I use GSAP library
+      for this. The homepage is also unique because it has a pixelated art that
+      is created purlely with CSS. After entering each card, user can see a
+      simple structure of the page with title, description, media (image, video
+      or 3D file) and a footer with navigation. Also, user can close the card.
+      This represents more traditional javascript implementation. The project
+      structure is simple with seperate folders for assets and pages.
+    </p>
+
+    <h2>Inspiration</h2>
+    <ul>
+      <li>
+        The design inspiration came form the popular design portoflio site [1].
+        The idea was to recreate the pixelated website in a similar way but with
+        a different color scheme and animations.
+      </li>
+      <img src="/assets//design-inspiration.jpg" alt="design" />
+      <li>Animation idea came for the GSAP library of exmaples [2].</li>
+      <li>Pixel art ideas came from the wbsite that I found on Google [3].</li>
+    </ul>
+
+    <h2>Accessibility</h2>
+    <ul>
+      <li>
+        Text and background colors have good contrast, thus they can be easily
+        read. Dark background with light text is used.
+      </li>
+      <li>
+        The website incorporates animations to guide users through the
+        interface. A downward-facing arrow subtly suggests that users should
+        scroll to reveal additional content.
+      </li>
+      <li>
+        The text is large and changes the size based on the screen size.
+        Responsive website suited for small and large screens.
+      </li>
+    </ul>
+
+    <h2>Usability</h2>
+    <ul>
+      <li>
+        The animations are triggered intuitively by scrolling, providing a
+        natural and engaging user experience.
+      </li>
+      <li>
+        Navigation is included in the pages to help user enter different pages.
+      </li>
+      <li>
+        The pixel art is in CSS only. This means that they can load much faster
+        without additional connection to server and file downloading like in the
+        pages with images and 3D file.
+      </li>
+    </ul>
+
+    <h2>Learning</h2>
+    <ul>
+      <li>
+        I had to learn how to make CSS responsive. Pixel art has static
+        hardcoding of pixel color and location on the screen. In the beggining,
+        it was hard to change the that and I was considering using AI to change
+        the pixels to em but the CSS was too long. Later, I was considering
+        chaning the format but then I found a solution to scale the CSS with
+        <code>transform: scale(0.5)</code> [4] and it worked.
+      </li>
+      <li>
+        Another important learning was about animation library. I had to look
+        for information on how to add it to the project and how to deal with
+        elements that are not on the screen.
+      </li>
+      <li>
+        Importing font that is suitable for the idea was also good and important
+        learning. I had look for fonts on the interent [5] and then use
+        <code>import url()</code>
+        css to add it the document.
+      </li>
+    </ul>
+
+    <h2>Evaluation I</h2>
+    <p>
+      I am most proud about how external libraries are implemented on the
+      website. There is a library for animations but also there is a libarary
+      for handling 3D files. And particulary the library with 3D implementation
+      was interesing because I leared about custom html tags.
+    </p>
+
+    <h2>Evaluation II</h2>
+    <p>
+      Navigation could be improved. It is not very intuitive because the
+      homepage doesn't have typical navigation bar. However, I find that
+      portfolio webistes are usually have unique perspectives. Also, the
+      resposivess doesn't include mobile phones and they are very important in
+      current environment.
+    </p>
+
+    <h2>Resources</h2>
+    <ul>
+      <li>
+        [1] dribbble.com, 'WILD.CODES animations', 2024. [Online]. Available:
+        https://dribbble.com/shots/24753455-WILD-CODES-animations. [Accessed:
+        01- Sep- 2024].
+      </li>
+      <li>
+        [2] gsap.com, 'Demos & Starters', 2024. [Online]. Available:
+        https://gsap.com/demos/?page=1. [Accessed: 01- Sep- 2024].
+      </li>
+      <li>
+        [3] freefrontend.com, '20 CSS Pixel Art', 2024. [Online]. Available:
+        https://freefrontend.com/css-pixel-art/. [Accessed: 01- Sep- 2024].
+      </li>
+      <li>
+        [4] developer.mozilla.org, 'scale()', 2024. [Online]. Available:
+        https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale.
+        [Accessed: 07- Sep- 2024].
+      </li>
+      <li>
+        [4] fonts.google.com, 'Google Fonts', 2024. [Online]. Available:
+        https://fonts.google.com/. [Accessed: 01- Sep- 2024].
+      </li>
+    </ul>
+
+    <h2>Appendices</h2>
+    <ul>
+      <li>Site map</li>
+      <img src="/assets/sitemap-1.jpg" alt="site-map" />
+      <li>Wireframes</li>
+      <img src="/assets/wireframe-1.jpg" alt="wireframe-1" />
+      <img src="/assets/wireframe-2.jpg" alt="wireframe-2" />
+      <img src="/assets/wireframe-3.jpg" alt="wireframe-3" />
+    </ul>
+  </body>
+</html>
